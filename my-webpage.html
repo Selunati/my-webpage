@@ -1,107 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
- img {
-width: 250px;
+        .MyPhoto {
+            width: 250px;
 
 
-}
-.name {
-    display: flex;
-    width: 60%;
-    margin: auto;
-    
-}
-.body {
-    background-color: yellow;
-}
-p {
-    word-wrap: break-word;
-    
+        }
 
+        .name {
+            display: flex;
+            width: 25%;
+            margin: auto;
+        }
+        
+@media (min-width: 500px){
+        .body {
+            background-color: yellow;
+        }
 }
-table {
-    width: 400px;
-}
+        .text2 {
+            float: right;
+            padding-right: 400px;
+            width: 50%;
+        }
 
-th {
-    text-align: left;
-}
-table, th, td {
-    border: 1px solid #000;
-    border-collapse: collapse ;
-}
-th, th {
-    padding: 10px;
+        table {
+            width: 1200px;
+            padding: 100px;
+            margin-left: 50px;
+        }
+
+        th {
+            text-align: left;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #000;
+            border-collapse: collapse;
+        }
+
+        th,
+        th {
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .picture {
+            width: 400px;
+            margin-left: 50px;
+        }
+
+        .castle {
+            width: 200px;
+        }
+
+        .Holo {
+            width: 200px;
+        }
+
+        .district {
+            width: 200px;
+        }
+
+        .three {
+            padding: 50px;
+        }
+
+        .lang {
+            padding: 50px;
+        }
+
+        .city2 {
+            padding: 50px;
+        }
+
+        .city {
+            padding: 50px;
+        }
+@media (min-width: 500px){
+        .Good,
+        .Hall,
+        .Six {
+            padding-top: -100px;
+            padding-right: 50px;
+            padding-left: 10px;
+            margin-left:10px ;
+            margin-right: 20px;
+            float: inline-end;
+        }
+        .Goede,.Town,.Six {
+            padding-top: -50px;
+            
+        }
 }
     </style>
 </head>
+
 <body style="background-color: yellow;">
     <section>
-        <div class="name" >
-        <h1>Selunathi Nomongo</h1>
-        <img src="table.jpg" style="float: right;">
+        <div class="name">
+            <h1 class="name">Selunathi Nomongo</h1>
+            <img class="MyPhoto" src="table.jpg" style="float: right;">
         </div>
-        </section>
-        <section>
-        <div >
-            <h2>Which City</h2>
-            <h2>Timbuktu - Mali</h2>
-            <img src="Timbuktu_001b.jpg">
-            <p>Timbuktu is best known for its famous Djinguereber Mosque and prestigious Sankore University, both of which were established in the early 1300s under the reign of the Mali Empire, most famous ruler, Mansa Musa. ... Timbuktu's greatest contribution to Islam and world civilization was its scholarship.Combined with its relative inaccessibility, "Timbuktu" has come to be used as a metaphor for exotic, distant lands. Today, Timbuktu is an impoverished town, although its reputation makes it a tourist attraction, and it has an airport.</p>
-       <h3>A language i would like to learn : Swahili</h3>
+    </section>
+    <section>
+        <div>
+            <h2 class="city">Which City</h2>
+            <h2 class="city2">Timbuktu - Mali</h2>
+            <img class="picture" src="Timbuktu_001b.jpg">
+            <p class="text2">Timbuktu is best known for its famous Djinguereber Mosque and prestigious Sankore
+                University, both of which were established in the early 1300s under the reign of the Mali Empire, most
+                famous ruler, Mansa Musa. ... Timbuktu's greatest contribution to Islam and world civilization was its
+                scholarship.Combined with its relative inaccessibility, "Timbuktu" has come to be used as a metaphor for
+                exotic, distant lands. Today, Timbuktu is an impoverished town, although its reputation makes it a
+                tourist attraction, and it has an airport.</p>
+            <h2 class="lang">Foreign language : Swahili</h2>
             <table>
-            <tr>
-                <th>Swahili Phrase</th>
-                <th>English Phrase</th>
-            </tr>
-            <tr>
-                <td>Jambo</td>
-                <td>Hello</td>
-            </tr>
-            <tr>
-                <td>Habari Gani?</td>
-                <td>How are you?</td>
-            </tr>
-            <tr>
-                <td>Kwa heri</td>
-                <td>Goodbye</td>
-            </tr>
-            <tr>
-                <td>tutaonana</td>
-                <td>See you later</td>
-            </tr>
-            <tr>
-                <td>nafurahi kukuona</td>
-                <td>Nice to meet you</td>
-            </tr>
-        </table>
+                <tr>
+                    <th>Swahili Phrase</th>
+                    <th>English Phrase</th>
+                </tr>
+                <tr>
+                    <td>Jambo</td>
+                    <td>Hello</td>
+                </tr>
+                <tr>
+                    <td>Habari Gani?</td>
+                    <td>How are you?</td>
+                </tr>
+                <tr>
+                    <td>Kwa heri</td>
+                    <td>Goodbye</td>
+                </tr>
+                <tr>
+                    <td>tutaonana</td>
+                    <td>See you later</td>
+                </tr>
+                <tr>
+                    <td>nafurahi kukuona</td>
+                    <td>Nice to meet you</td>
+                </tr>
+            </table>
         </div>
-        <section></section>
-            <div class="History">
-                <h3>Three Historical Sites</h3>
-                
-                <ol>
-                    <li>The Castle</li>
-                    <li>District Six</li>
-                    <li>City Hall</li>
-                </ol>
-                <h3>1. This is The Castle</h3>
-                <img src="the Castle.jpg" alt="The Castle">
-                <p>A Cape Town landmark, the Castle of Good Hope, is a prime example of a “star fort”. Built between 1666 and 1679 by the Dutch East India Company, it's the oldest existing colonial building in South Africa. Its position marks the original shoreline before years of land reclamation changed the Table Bay coastline.</p>
+
+        <div class="History">
+            <h2 class="three">Historical Places</h2>
+        </div>
+        <section class="container">
+            <div class="Good">
+                <h2 class="Goede">The Castle of Good Hope</h2>
+                <p>A Cape Town landmark, the Castle of Good Hope, is a prime example of a “star fort”. Built between
+                    1666 and 1679 by the Dutch East India Company, it's the oldest existing colonial building in South
+                    Africa. Its position marks the original shoreline before years of land reclamation changed the Table
+                    Bay coastline.</p>
             </div>
-            <div class="" >
-        
+            <img class="castle" src="the Castle.jpg">
+            <div class="Hall">
+                <h2 class="Town">City Hall</h2>
+                <p>This is a large Edwardian building in the centre of Cape Town city. It was built in 1905, on the
+                    Grand parade, west of the Castle of Good Hope. Messrs Henry Austin Reid and Frederick George
+                    designed this building and is home to the Cape Philharmonic Orchestra, which performs concerts there
+                    regularly.</p>
             </div>
-        </div>
-        <div class="" >
-            
-        </div>
+            <img class="Holo" src="the Castle.jpg">
+            <div class="Six">
+                <h2 class="district">District </h2>
+                <p>On 12 of June 1965, all property transactions in District Six were frozen. A 10-year ban was imposed
+                    on the erection or alteration of any building. On 11 February 1966, the government declared District
+                    Six a whites-only area under the Group Areas Act, with removals starting in 1968
+                </p>
+            </div>
+            <img class="district" src="the Castle.jpg">
         </section>
+
 </body>
+
 </html>
